@@ -1,0 +1,246 @@
+html{
+    background-color: rgb(197, 180, 25);
+    
+          
+         
+          background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><filter id="noise-filter"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"></feTurbulence></filter><rect width="100%" height="100%" filter="url(%23noise-filter)" fill="white"></rect></svg>');
+          opacity: 1;
+          
+     
+          
+    }
+    
+    .home {
+        background-color: rgba(255, 244, 234, 0);
+      margin: 50px;
+       
+      margin-left: 350px;
+      
+       height: 100%;
+       
+       max-width: 1200px;}
+       .delay-effect{
+       padding: 20px;
+       animation: fadeInAnimation ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+        
+    }
+    @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+    
+      100% {
+          opacity: 1;
+      }}
+    .home h1{
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(55, 42, 40);
+        font-family: "YADK3z8rjvs 0", "auto";
+        font-size: 149.377px;
+        line-height: 134px;
+        margin-top: 25px;
+    }
+    
+    
+    .triangle_element{
+        
+        
+      height:450px;
+      display: flex;
+      justify-content: center;
+     
+        
+    }
+    .triangle{
+        
+        width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid rgb(37, 37, 36);
+      transform: scale(4.9);
+      position: absolute;
+      margin-top: 110px;
+     
+    }
+        
+    
+    
+    .contact div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+    }
+    .c_title{
+        font-family: "YAFdJsyuOPM 0", "auto";
+        font-size: 50px;
+        margin: 1px;
+        color: rgb(55, 42, 40);
+    }
+    
+    /* Layout.css*/
+    .nav_channel{
+      position: absolute;
+     left: 0;
+     margin-left: 100px;
+     text-align: left;
+     margin-top: 40px;
+    }
+    .nav_channel div{
+      margin: 5px;
+    
+      color: rgb(55, 42, 40);
+     font-weight: bolder;
+      border-right: .15em solid rgba(8, 8, 8, 0);
+      font-family: "Courier";
+      font-size: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+    
+    }
+    .nav_channel div:nth-child(1) {
+      width: 8em;
+      -webkit-animation: type 0.5s steps(8, end);
+      animation: type 0.5s steps(8, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    
+    .nav_channel div:nth-child(2) {
+      width:  8em;
+      opacity: 0;
+      -webkit-animation: type2 1s steps(20, end);
+      animation: type2 1s steps(20, end);
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .nav_channel div:nth-child(3) {
+      width: 8em;
+      opacity: 0;
+      -webkit-animation: type2 1s steps(20, end);
+      animation: type2 1s steps(20, end);
+      -webkit-animation-delay: 1s;
+      animation-delay:1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    
+    .nav_channel div:nth-child(4) {
+      width: 8em;
+      opacity: 0;
+      -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .nav_channel div:nth-child(5) {
+      width: 8em;
+      opacity: 0;
+      -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    @keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .15em solid rgba(255, 166, 0, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .15em solid rgba(255, 166, 0, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid rgba(255, 166, 0, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid rgba(255, 166, 0, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @-webkit-keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @-webkit-keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    
+    
+    

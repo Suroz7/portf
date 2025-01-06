@@ -1,0 +1,48 @@
+.project_container{
+    display: flex;
+    justify-content: space-evenly;
+ margin: 50px;
+}
+
+.project_container h1{
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(55, 42, 40);
+    font-family: "YADK3z8rjvs 0", "auto";
+    margin-top: 300px;
+    margin-left: 50px;
+
+}
+h4{
+    color: rgb(55, 42, 40);
+    font-family: "YADK3z8rjvs 0", "auto";
+    font-size: 30px;
+ text-decoration: none;
+ font-weight: 900;
+    margin-bottom: 5px;
+}
+.intern{
+    height: 800px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.personal_projects{
+    height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+h4 p{
+    color: rgb(55, 42, 40);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 30px;
+    line-height: 35px;
+}

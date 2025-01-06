@@ -1,0 +1,43 @@
+.contacts {
+    margin: 50px;
+    display: flex;
+  justify-content: center;
+  height: 800px;
+  flex-direction: column;
+  
+}
+.contact_info{
+    
+    display: flex;
+    margin-left: 300px;
+    
+    margin-right: 300px;
+    justify-content: space-evenly;
+}
+.contact_headline{
+    max-height: fit-content;
+}
+.contact_headline h1{
+        font-size: 100px;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(55, 42, 40);
+        font-family: "YADK3z8rjvs 0", "auto";
+        
+    
+    }
+.facebook:hover {
+    transform: scale(1.2);
+    
+   
+}
+.instagram:hover {
+    transform: scale(1.2);
+    
+   
+}
+.linkedin:hover{
+    transform: scale(1.2);
+    
+   
+}
