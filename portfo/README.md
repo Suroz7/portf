@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+
+you can access the page with this link without downloading/cloning the repository
+https://portfolio-88ef8.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
